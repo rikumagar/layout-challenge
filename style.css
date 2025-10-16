@@ -39,6 +39,9 @@ img {
 .grid {
   margin: 0 auto;
   max-width: 980px;
+  display: grid;
+  grid-template-columns: 3fr 1fr; /* article three times wider */
+  gap: 20px;
 }
 
 /* Navigation bar styling */
@@ -53,8 +56,8 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;           /* horizontal layout */
-  justify-content: space-between;  /* equal spacing */
+  display: flex;           
+  justify-content: space-between;  
 }
 
 nav a {
@@ -68,11 +71,14 @@ nav a {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two-column grid for photos */
+  gap: 5px;
 }
 
 /* Featured image in article */
 .feature {
   width: 200px;
-  float: left;      /* text wraps around */
+  float: left;
   margin: 0 20px 20px 0;
 }
