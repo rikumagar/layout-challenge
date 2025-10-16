@@ -45,12 +45,16 @@ img {
 nav {
   background-color: black;
   padding: 0.5em;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;           /* horizontal layout */
+  justify-content: space-between;  /* equal spacing */
 }
 
 nav a {
@@ -69,4 +73,6 @@ nav a {
 /* Featured image in article */
 .feature {
   width: 200px;
+  float: left;      /* text wraps around */
+  margin: 0 20px 20px 0;
 }
