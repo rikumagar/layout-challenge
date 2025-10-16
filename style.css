@@ -1,7 +1,18 @@
+/* Author : Hrigdev Thapa
+Student ID : 100973032
+Date : 2025-10-16
+Purpose: /*
+Purpose: Styles the webpage layout, including navigation bar, 
+two-column main content, feature image with text wrapping, and photo grid, 
+to make it visually organized and readable. */
+
+
+/* General box sizing */
 * {
   box-sizing: border-box;
 }
 
+/* Body styling */
 body {
   background-color: white;
   color: #333333;
@@ -9,12 +20,14 @@ body {
   font: 1.2em / 1.6 sans-serif;
 }
 
+/* Images general styling */
 img {
   max-width: 100%;
   display: block;
   border: 1px solid black;
 }
 
+/* Logo styling */
 .logo {
   font-size: 200%;
   padding: 50px 20px;
@@ -22,11 +35,13 @@ img {
   max-width: 980px;
 }
 
+/* Grid container styling */
 .grid {
   margin: 0 auto;
   max-width: 980px;
 }
 
+/* Navigation bar styling */
 nav {
   background-color: black;
   padding: 0.5em;
@@ -44,12 +59,14 @@ nav a {
   padding: 0.5em 1em;
 }
 
+/* Photos list styling */
 .photos {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+/* Featured image in article */
 .feature {
   width: 200px;
 }
